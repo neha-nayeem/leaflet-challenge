@@ -10,6 +10,14 @@ They collect a massive amount of data from all over the world each day, but they
 
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Available at [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php), I chose a GeoJSON file to help  visualize **All Earthquakes from the past 7 Days**. 
 
+**The visualization can be seen here [Earthquake Visualization](https://neha-nayeem.github.io/leaflet-challenge/)**
+
+### Notes
+* A `static` folder contain custom CSS, images, and a `config.js` file which holds the MapBox API key that will need to be entered. This is required to be able to view the visualization.
+* A `Leaflet-Step-1` folder contains the `logic.js` file for the basic visualization.
+* A `Leaflet-Step-2` folder contains the `advanced.js` and `index.html` files for the advanced visualization.
+* The root folder contains the basic visualization `index.html`.
+
 ### Level 1: Basic Visualization
 
 After importing the data using d3, the following steps were followed:
